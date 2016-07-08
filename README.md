@@ -1,7 +1,7 @@
-# fpgrowth
-A simple implementation of the FP-growth algorithm
+# FP-growth
+A simple implementation of the FP-growth algorithm by Jiawei Han and Jian Pei [SIGMOD 2000]
 
-usage: fpgrowth datafile minsup [output]
+Usage: fpgrowth datafile minsup [output]
 
 Note that minsup must not be a relative frequency, but an (absolute) natural number between 1 and the number of transactions!
 All items occurring in the database must be positive integers!
